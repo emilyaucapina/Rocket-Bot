@@ -4,6 +4,8 @@ from util.objects import *
 from util.routines import *
 from util.tools import find_hits
 
+#-----------------------------------------------------------------
+
 class Bot(GoslingAgent):
     # This function runs every in-game tick (every time the game updates anything)
     def run(self):
