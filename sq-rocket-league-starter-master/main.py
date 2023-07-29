@@ -25,6 +25,8 @@ class Bot(GoslingAgent):
            self.add_debug_line('retreat', self.me.location, retreat_location, [255, 0, 0])
            return
         
+#-----------------------------------------------------------------
+
         if self.me.boost > 99:
             shot_location = self.foe_goal.location
             self.set_intent(short_shot(self.foe_goal.location))
