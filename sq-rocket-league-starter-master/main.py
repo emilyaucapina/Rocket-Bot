@@ -32,6 +32,7 @@ class Bot(GoslingAgent):
             self.add_debug_line('me_to_ball', self.me.location, self.ball.location, [0, 0, 255])
             self.add_debug_line('ball_to_set', self.ball.location, shot_loction, [0, 0, 255])
             return
+#-----------------------------------------------------------------
 
         target_boost = self.get_closest_large_boost()
         if target_boost is not None:
